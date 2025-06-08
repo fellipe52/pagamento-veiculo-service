@@ -20,9 +20,6 @@ namespace Pagamento.Domain.Validators
             RuleFor(x => x.AnoVencimentoCartao)
                 .GreaterThanOrEqualTo(DateTime.Now.Year).WithMessage("O ano de vencimento deve ser o ano atual ou posterior.");
 
-            RuleFor(x => x.Valor)
-                .GreaterThan(0).WithMessage("O valor da transação deve ser maior que zero.");
-
             RuleFor(x => x.CodigoSegurancaCartao)
                 .NotEmpty().WithMessage("O código de segurança é obrigatório.")
                 .Length(3, 4).WithMessage("O código de segurança deve ter 3 ou 4 dígitos.")

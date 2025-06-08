@@ -3,6 +3,10 @@ obj/
 app/build/
 app/publish/
 
+.vs/
+*.vsix
+*.vscode/
+
 *.user
 *.suo
 *.userosscache
