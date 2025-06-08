@@ -23,7 +23,7 @@ jobs:
         client-secret: ${{ secrets.AZURE_SECRET }}
         tenant-id: ${{ secrets.AZURE_TENANT_ID }}
         subscription-id: ${{ secrets.SUBSCRIPTION  }}
-        auth-type: SERVICE_PRINCIPAL
+        auth-type: IDENTITY
 
     - name: Set AKS context
       uses: azure/aks-set-context@v3
