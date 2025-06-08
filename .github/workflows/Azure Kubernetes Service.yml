@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+      
+permissions:
+  id-token: write
+  contents: read
 
 jobs:
   build-push-deploy:
@@ -19,7 +23,7 @@ jobs:
         client-id: ${{ secrets.AZURE_CLIENT_ID }}
         client-secret: ${{ secrets.AZURE_SECRET }}
         tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-        subscription-id: ${{ secrets.SUBSCRIPTION }}
+        subscription-id: ${{ secrets.SUBSCRIPTION }}  
 
     - name: Azure Kubernetes Service - Connect
       uses: azure/aks-set-context@v1
