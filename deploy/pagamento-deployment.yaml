@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pagamento-veiculo
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: pagamento-veiculo
+  template:
+    metadata:
+      labels:
+        app: pagamento-veiculo
+    spec:
+      containers:
+        - name: pagamento-veiculo
+          image: veiculo.azurecr.io/pagamento-veiculo:latest
+          ports:
+            - containerPort: 80
+          env:
+            - name: ConnectionStrings__DefaultConnection
+              value: "Host=postgres;Database=veiculos_venda;Username=postgres;Password=postgres"
