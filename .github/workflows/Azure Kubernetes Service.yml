@@ -23,7 +23,7 @@ jobs:
         client-secret: ${{ secrets.AZURE_SECRET }}
         tenant-id: ${{ secrets.AZURE_TENANT_ID }}
         subscription-id: ${{ secrets.SUBSCRIPTION }}  
-        auth-type: servicePrincipal
+        auth-type: SERVICE_PRINCIPAL
 
     - name: Azure Kubernetes Service - Connect
       uses: azure/aks-set-context@v1
