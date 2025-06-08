@@ -6,7 +6,8 @@ on:
       - main
 
 permissions:
-  contents: read  # Não usa id-token, então não precisa dele
+  id-token: write
+  contents: read
 
 jobs:
   build-push-deploy:
