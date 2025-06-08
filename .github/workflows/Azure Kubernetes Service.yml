@@ -5,38 +5,41 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read  # Não usa id-token, então não precisa dele
+
 jobs:
   build-push-deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repo
+    - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Login to Azure
+    - name: Azure Login via Service Principal
       uses: azure/login@v1
       with:
         client-id: ${{ secrets.AZURE_CLIENT_ID }}
         client-secret: ${{ secrets.AZURE_SECRET }}
         tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-        subscription-id: ${{ secrets.SUBSCRIPTION }}  
+        subscription-id: ${{ secrets.AZURE_SUBSCRIPTION }}
         auth-type: SERVICE_PRINCIPAL
 
-    - name: Azure Kubernetes Service - Connect
-      uses: azure/aks-set-context@v1
+    - name: Set AKS context
+      uses: azure/aks-set-context@v3
       with:
         resource-group: veiculo
         cluster-name: veiculo
 
-    - name: Login to Azure Container Registry
+    - name: Login to Azure Container Registry (ACR)
       run: |
-        echo ${{ secrets.AZURE_SECRET }} | docker login veiculo.azurecr.io -u ${{ secrets.AZURE_CLIENT_ID }} --password-stdin
+        az acr login --name veiculo
 
     - name: Build Docker image
       run: |
         docker build -t veiculo.azurecr.io/veiculo-venda:latest .
 
-    - name: Push Docker image
+    - name: Push Docker image to ACR
       run: |
         docker push veiculo.azurecr.io/veiculo-venda:latest
 
