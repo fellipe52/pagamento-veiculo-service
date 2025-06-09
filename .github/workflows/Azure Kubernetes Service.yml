@@ -38,5 +38,5 @@ jobs:
 
     - name: Deploy to AKS
       run: |
-        kubectl apply -f ./deploy/pagamento-deployment
-        kubectl apply -f ./deploy/pagamento-service
+        kubectl apply -f src/deploy/pagamento-deployment
+        kubectl apply -f src/deploy/pagamento-service
