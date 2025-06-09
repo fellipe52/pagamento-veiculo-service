@@ -16,17 +16,12 @@
   </ItemGroup>
 
 	<ItemGroup>
-	</ItemGroup>
-
-	<ItemGroup>
 		<PackageReference Include="FluentValidation" Version="12.0.0" />
 	</ItemGroup>
 
-
 	<ItemGroup>
-	  <ProjectReference Include="..\..\Pagamento.Application\Pagamento.Application.csproj" />
-	  <ProjectReference Include="..\..\Pagamento.Domain\Pagamento.Domain.csproj" />
-	  <ProjectReference Include="..\..\Pagamento.Infrastructure\Pagamento.Infrastructure.csproj" />
+	  <ProjectReference Include="..\Pagamento.Application\Pagamento.Application.csproj" />
+	  <ProjectReference Include="..\Pagamento.Infrastructure\Pagamento.Infrastructure.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
