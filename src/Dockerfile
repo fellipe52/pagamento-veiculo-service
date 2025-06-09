@@ -12,13 +12,13 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["src/Pagamento.API/Pagamento.API.csproj", "src/Pagamento.API/"]
-COPY ["src/Pagamento.Application/Pagamento.Application.csproj", "src/Pagamento.Application/"]
-COPY ["src/Pagamento.Domain/Pagamento.Domain.csproj", "src/Pagamento.Domain/"]
-COPY ["src/Pagamento.Infrastructure/Pagamento.Infrastructure.csproj", "src/Pagamento.Infrastructure/"]
-RUN dotnet restore "./src/Pagamento.API/Pagamento.API.csproj"
+COPY ["Pagamento.API/Pagamento.API.csproj", "Pagamento.API/"]
+COPY ["Pagamento.Application/Pagamento.Application.csproj", "Pagamento.Application/"]
+COPY ["Pagamento.Domain/Pagamento.Domain.csproj", "Pagamento.Domain/"]
+COPY ["Pagamento.Infrastructure/Pagamento.Infrastructure.csproj", "Pagamento.Infrastructure/"]
+RUN dotnet restore "Pagamento.API/Pagamento.API.csproj"
 COPY . .
-WORKDIR "/src/src/Pagamento.API"
+WORKDIR "  /Pagamento.API"
 RUN dotnet build "./Pagamento.API.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # Esta fase é usada para publicar o projeto de serviço a ser copiado para a fase final
