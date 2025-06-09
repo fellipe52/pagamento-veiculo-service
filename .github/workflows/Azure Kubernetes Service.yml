@@ -30,11 +30,11 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t veiculo.azurecr.io/veiculo-venda:latest -f src/Pagamento.API/Dockerfile src/Pagamento.API
+        docker build -t veiculo.azurecr.io/pagamento-veiculo:latest -f src/Pagamento.API/Dockerfile src/Pagamento.API
 
     - name: Push Docker image to ACR
       run: |
-        docker push veiculo.azurecr.io/veiculo-venda:latest
+        docker push veiculo.azurecr.io/pagamento-veiculo:latest
 
     - name: Deploy to AKS
       run: |
