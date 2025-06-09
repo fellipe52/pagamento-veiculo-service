@@ -1,36 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\fiap\\Fase 4\\pagamento-veiculo-service-1\\src\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{4CDAD8ED-2BF0-3B79-D99C-D7DC6618A2C3}|..\\..\\pagamento-veiculo-service\\src\\Pagamento.API\\Pagamento.API.csproj|c:\\fiap\\fase 4\\pagamento-veiculo-service\\src\\pagamento.api\\pagamento.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Pagamento.API",
-              "DocumentMoniker": "C:\\fiap\\Fase 4\\pagamento-veiculo-service\\src\\Pagamento.API\\Pagamento.API.csproj",
-              "RelativeDocumentMoniker": "..\\..\\pagamento-veiculo-service\\src\\Pagamento.API\\Pagamento.API.csproj",
-              "ToolTip": "C:\\fiap\\Fase 4\\pagamento-veiculo-service\\src\\Pagamento.API\\Pagamento.API.csproj",
-              "RelativeToolTip": "..\\..\\pagamento-veiculo-service\\src\\Pagamento.API\\Pagamento.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-09T00:15:34.834Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
