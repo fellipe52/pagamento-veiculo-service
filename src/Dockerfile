@@ -18,7 +18,7 @@ COPY ["Pagamento.Domain/Pagamento.Domain.csproj", "Pagamento.Domain/"]
 COPY ["Pagamento.Infrastructure/Pagamento.Infrastructure.csproj", "Pagamento.Infrastructure/"]
 RUN dotnet restore "Pagamento.API/Pagamento.API.csproj"
 COPY . .
-WORKDIR "  /Pagamento.API"
+WORKDIR "/Pagamento.API"
 RUN dotnet build "./Pagamento.API.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # Esta fase é usada para publicar o projeto de serviço a ser copiado para a fase final
