@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\fiap\\Fase 4\\pagamento-veiculo-service-1\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1922992E-66DF-C400-763A-43906A9989CC}|Pagamento.API\\Pagamento.API.csproj|c:\\fiap\\fase 4\\pagamento-veiculo-service-1\\src\\pagamento.api\\extensions\\infrastructureextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1922992E-66DF-C400-763A-43906A9989CC}|Pagamento.API\\Pagamento.API.csproj|solutionrelative:pagamento.api\\extensions\\infrastructureextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1922992E-66DF-C400-763A-43906A9989CC}|Pagamento.API\\Pagamento.API.csproj|c:\\fiap\\fase 4\\pagamento-veiculo-service-1\\src\\pagamento.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1922992E-66DF-C400-763A-43906A9989CC}|Pagamento.API\\Pagamento.API.csproj|solutionrelative:pagamento.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1922992E-66DF-C400-763A-43906A9989CC}|Pagamento.API\\Pagamento.API.csproj|c:\\fiap\\fase 4\\pagamento-veiculo-service-1\\src\\pagamento.api\\extensions\\domainextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1922992E-66DF-C400-763A-43906A9989CC}|Pagamento.API\\Pagamento.API.csproj|solutionrelative:pagamento.api\\extensions\\domainextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1922992E-66DF-C400-763A-43906A9989CC}|Pagamento.API\\Pagamento.API.csproj|c:\\fiap\\fase 4\\pagamento-veiculo-service-1\\src\\pagamento.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1922992E-66DF-C400-763A-43906A9989CC}|Pagamento.API\\Pagamento.API.csproj|solutionrelative:pagamento.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1922992E-66DF-C400-763A-43906A9989CC}|Pagamento.API\\Pagamento.API.csproj|c:\\fiap\\fase 4\\pagamento-veiculo-service-1\\src\\pagamento.api\\extensions\\applicationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1922992E-66DF-C400-763A-43906A9989CC}|Pagamento.API\\Pagamento.API.csproj|solutionrelative:pagamento.api\\extensions\\applicationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1922992E-66DF-C400-763A-43906A9989CC}|Pagamento.API\\Pagamento.API.csproj|c:\\fiap\\fase 4\\pagamento-veiculo-service-1\\src\\pagamento.api\\pagamento.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1922992E-66DF-C400-763A-43906A9989CC}|Pagamento.API\\Pagamento.API.csproj|solutionrelative:pagamento.api\\pagamento.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1922992E-66DF-C400-763A-43906A9989CC}|Pagamento.API\\Pagamento.API.csproj|c:\\fiap\\fase 4\\pagamento-veiculo-service-1\\src\\pagamento.api\\controllers\\pagamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1922992E-66DF-C400-763A-43906A9989CC}|Pagamento.API\\Pagamento.API.csproj|solutionrelative:pagamento.api\\controllers\\pagamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4689C629-187E-A09B-A581-202FB71F821F}|Pagamento.Infrastructure\\Pagamento.Infrastructure.csproj|c:\\fiap\\fase 4\\pagamento-veiculo-service-1\\src\\pagamento.infrastructure\\pagamento.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4689C629-187E-A09B-A581-202FB71F821F}|Pagamento.Infrastructure\\Pagamento.Infrastructure.csproj|solutionrelative:pagamento.infrastructure\\pagamento.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InfrastructureExtension.cs",
-              "DocumentMoniker": "C:\\fiap\\Fase 4\\pagamento-veiculo-service-1\\src\\Pagamento.API\\Extensions\\InfrastructureExtension.cs",
-              "RelativeDocumentMoniker": "Pagamento.API\\Extensions\\InfrastructureExtension.cs",
-              "ToolTip": "C:\\fiap\\Fase 4\\pagamento-veiculo-service-1\\src\\Pagamento.API\\Extensions\\InfrastructureExtension.cs",
-              "RelativeToolTip": "Pagamento.API\\Extensions\\InfrastructureExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\fiap\\Fase 4\\pagamento-veiculo-service-1\\src\\Pagamento.API\\Program.cs",
+              "RelativeDocumentMoniker": "Pagamento.API\\Program.cs",
+              "ToolTip": "C:\\fiap\\Fase 4\\pagamento-veiculo-service-1\\src\\Pagamento.API\\Program.cs",
+              "RelativeToolTip": "Pagamento.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T01:12:47.248Z",
+              "WhenOpened": "2025-06-09T01:25:13.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DomainExtension.cs",
-              "DocumentMoniker": "C:\\fiap\\Fase 4\\pagamento-veiculo-service-1\\src\\Pagamento.API\\Extensions\\DomainExtension.cs",
-              "RelativeDocumentMoniker": "Pagamento.API\\Extensions\\DomainExtension.cs",
-              "ToolTip": "C:\\fiap\\Fase 4\\pagamento-veiculo-service-1\\src\\Pagamento.API\\Extensions\\DomainExtension.cs",
-              "RelativeToolTip": "Pagamento.API\\Extensions\\DomainExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T01:12:44.423Z",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\fiap\\Fase 4\\pagamento-veiculo-service-1\\src\\Pagamento.API\\Dockerfile",
+              "RelativeDocumentMoniker": "Pagamento.API\\Dockerfile",
+              "ToolTip": "C:\\fiap\\Fase 4\\pagamento-veiculo-service-1\\src\\Pagamento.API\\Dockerfile",
+              "RelativeToolTip": "Pagamento.API\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-09T01:24:31.66Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ApplicationExtension.cs",
-              "DocumentMoniker": "C:\\fiap\\Fase 4\\pagamento-veiculo-service-1\\src\\Pagamento.API\\Extensions\\ApplicationExtension.cs",
-              "RelativeDocumentMoniker": "Pagamento.API\\Extensions\\ApplicationExtension.cs",
-              "ToolTip": "C:\\fiap\\Fase 4\\pagamento-veiculo-service-1\\src\\Pagamento.API\\Extensions\\ApplicationExtension.cs",
-              "RelativeToolTip": "Pagamento.API\\Extensions\\ApplicationExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T01:12:40.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PagamentoController.cs",
-              "DocumentMoniker": "C:\\fiap\\Fase 4\\pagamento-veiculo-service-1\\src\\Pagamento.API\\Controllers\\PagamentoController.cs",
-              "RelativeDocumentMoniker": "Pagamento.API\\Controllers\\PagamentoController.cs",
-              "ToolTip": "C:\\fiap\\Fase 4\\pagamento-veiculo-service-1\\src\\Pagamento.API\\Controllers\\PagamentoController.cs",
-              "RelativeToolTip": "Pagamento.API\\Controllers\\PagamentoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T01:12:22.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Pagamento.API",
-              "DocumentMoniker": "C:\\fiap\\Fase 4\\pagamento-veiculo-service-1\\src\\Pagamento.API\\Pagamento.API.csproj",
-              "RelativeDocumentMoniker": "Pagamento.API\\Pagamento.API.csproj",
-              "ToolTip": "C:\\fiap\\Fase 4\\pagamento-veiculo-service-1\\src\\Pagamento.API\\Pagamento.API.csproj*",
-              "RelativeToolTip": "Pagamento.API\\Pagamento.API.csproj*",
+              "Title": "Pagamento.Infrastructure",
+              "DocumentMoniker": "C:\\fiap\\Fase 4\\pagamento-veiculo-service-1\\src\\Pagamento.Infrastructure\\Pagamento.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Pagamento.Infrastructure\\Pagamento.Infrastructure.csproj",
+              "ToolTip": "C:\\fiap\\Fase 4\\pagamento-veiculo-service-1\\src\\Pagamento.Infrastructure\\Pagamento.Infrastructure.csproj",
+              "RelativeToolTip": "Pagamento.Infrastructure\\Pagamento.Infrastructure.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-09T01:12:15.154Z",
+              "WhenOpened": "2025-06-09T01:23:58.331Z",
               "EditorCaption": ""
             }
           ]
