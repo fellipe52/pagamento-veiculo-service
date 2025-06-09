@@ -17,9 +17,18 @@ COPY ["Pagamento.Application/Pagamento.Application.csproj", "Pagamento.Applicati
 COPY ["Pagamento.Domain/Pagamento.Domain.csproj", "Pagamento.Domain/"]
 COPY ["Pagamento.Infrastructure/Pagamento.Infrastructure.csproj", "Pagamento.Infrastructure/"]
 RUN dotnet restore "Pagamento.API/Pagamento.API.csproj"
+# Restaure as dependências
+RUN dotnet restore "./Pagamento.API/Pagamento.API.csproj"
+
+# Copiar o restante dos arquivos para o contêiner
 COPY . .
-WORKDIR "/Pagamento.API"
-RUN dotnet build "./Pagamento.API.csproj" -c $BUILD_CONFIGURATION -o /app/build
+
+# Verifique os arquivos dentro do contêiner (opcional, para depuração)
+RUN ls -al /src
+
+# Ajuste o diretório de trabalho para o diretório da API e execute o build
+WORKDIR "/src/Pagamento.API"
+RUN dotnet build "./Pagamento.API.csproj" -c $BUILD_CONFIGURATION -o /app/build -v detailed
 
 # Esta fase é usada para publicar o projeto de serviço a ser copiado para a fase final
 FROM build AS publish
