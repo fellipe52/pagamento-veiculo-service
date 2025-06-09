@@ -30,7 +30,7 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t veiculo.azurecr.io/pagamento-veiculo:latest -f src/Dockerfile src/
+        docker build -t veiculo.azurecr.io/pagamento-veiculo:latest -f src/Dockerfile .
 
     - name: Push Docker image to ACR
       run: |
