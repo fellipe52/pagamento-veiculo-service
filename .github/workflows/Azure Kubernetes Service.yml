@@ -38,6 +38,6 @@ jobs:
 
     - name: Deploy to AKS
       run: |
-        kubectl apply -f pagamento-secrets.yml
+        kubectl apply -f src/deploy/pagamento-secrets.yml
         kubectl apply -f src/deploy/pagamento-deployment.yaml
         kubectl apply -f src/deploy/pagamento-service.yml
