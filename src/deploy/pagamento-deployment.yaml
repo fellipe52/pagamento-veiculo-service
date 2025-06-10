@@ -16,7 +16,7 @@ spec:
         - name: pagamento-veiculo
           image: veiculo.azurecr.io/pagamento-veiculo:latest
           ports:
-            - containerPort: 80
+            - containerPort: 8080
           env:
             - name: ConnectionStrings__DefaultConnection
               value: "Host=postgres;Database=veiculos_venda;Username=postgres;Password=postgres"
