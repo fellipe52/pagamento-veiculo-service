@@ -18,5 +18,5 @@ spec:
           ports:
             - containerPort: 8080
           env:
-            - name: ConnectionStrings__DefaultConnection
-              value: "Host=postgres;Database=veiculos_venda;Username=postgres;Password=postgres"
+            - name: ASPNETCORE_ENVIRONMENT
+              value: "Development"
