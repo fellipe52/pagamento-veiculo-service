@@ -50,7 +50,7 @@ namespace Pagamento.Domain.UseCases
                 storageCard = "0",
                 transactionCredentials = new()
                 {
-                    credentialId = request.CategoriaTransacao.ToString()
+                    credentialId = request.CategoriaTransacao
                 }
             };
 

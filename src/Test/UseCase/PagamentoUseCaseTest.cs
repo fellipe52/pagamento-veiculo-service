@@ -45,7 +45,7 @@ namespace Test.UseCase
                 AnoVencimentoCartao = 2028,
                 NomeImpressoCartao = "John Snow",
                 CodigoSegurancaCartao = "123",
-                CategoriaTransacao = 1
+                CategoriaTransacao = "01"
             };
 
             TransacaoDTOResponse response = new()
@@ -103,7 +103,7 @@ namespace Test.UseCase
                 AnoVencimentoCartao = 2028,
                 NomeImpressoCartao = "John Snow",
                 CodigoSegurancaCartao = "123",
-                CategoriaTransacao = 1
+                CategoriaTransacao = "01"
             };
 
             TransacaoDTOResponse response = new()
@@ -165,7 +165,7 @@ namespace Test.UseCase
                 AnoVencimentoCartao = 2028,
                 NomeImpressoCartao = "John Snow",
                 CodigoSegurancaCartao = "123",
-                CategoriaTransacao = 1
+                CategoriaTransacao = "01"
             };
 
             TransacaoDTOResponse response = new()
@@ -227,7 +227,7 @@ namespace Test.UseCase
                 AnoVencimentoCartao = 2028,
                 NomeImpressoCartao = "John Snow",
                 CodigoSegurancaCartao = "123",
-                CategoriaTransacao = 1
+                CategoriaTransacao = "01"
             };
 
             TransacaoDTOResponse response = new()
@@ -289,7 +289,7 @@ namespace Test.UseCase
                 AnoVencimentoCartao = 2028,
                 NomeImpressoCartao = "John Snow",
                 CodigoSegurancaCartao = "123",
-                CategoriaTransacao = 1
+                CategoriaTransacao = "01"
             };
 
             TransacaoDTOResponse response = new()
@@ -351,7 +351,7 @@ namespace Test.UseCase
                 AnoVencimentoCartao = 2028,
                 NomeImpressoCartao = "John Snow",
                 CodigoSegurancaCartao = "123",
-                CategoriaTransacao = 1
+                CategoriaTransacao = "01"
             };
 
             TransacaoDTOResponse response = new()
@@ -413,7 +413,7 @@ namespace Test.UseCase
                 AnoVencimentoCartao = 2028,
                 NomeImpressoCartao = "John Snow",
                 CodigoSegurancaCartao = "123",
-                CategoriaTransacao = 1
+                CategoriaTransacao = "01"
             };
 
             TransacaoDTOResponse response = new()
@@ -475,7 +475,7 @@ namespace Test.UseCase
                 AnoVencimentoCartao = 2028,
                 NomeImpressoCartao = "John Snow",
                 CodigoSegurancaCartao = null,
-                CategoriaTransacao = 1
+                CategoriaTransacao = "01"
             };
 
             TransacaoDTOResponse response = new()
@@ -537,7 +537,7 @@ namespace Test.UseCase
                 AnoVencimentoCartao = 2028,
                 NomeImpressoCartao = "John Snow",
                 CodigoSegurancaCartao = string.Empty,
-                CategoriaTransacao = 1
+                CategoriaTransacao = "01"
             };
 
             TransacaoDTOResponse response = new()
@@ -599,7 +599,7 @@ namespace Test.UseCase
                 AnoVencimentoCartao = 2028,
                 NomeImpressoCartao = "John Snow",
                 CodigoSegurancaCartao = "      ",
-                CategoriaTransacao = 1
+                CategoriaTransacao = "01"
             };
 
             TransacaoDTOResponse response = new()
@@ -661,7 +661,7 @@ namespace Test.UseCase
                 AnoVencimentoCartao = 2028,
                 NomeImpressoCartao = "John Snow",
                 CodigoSegurancaCartao = "12",
-                CategoriaTransacao = 1
+                CategoriaTransacao = "01"
             };
 
             TransacaoDTOResponse response = new()
@@ -723,7 +723,7 @@ namespace Test.UseCase
                 AnoVencimentoCartao = 2028,
                 NomeImpressoCartao = "John Snow",
                 CodigoSegurancaCartao = "12A",
-                CategoriaTransacao = 1
+                CategoriaTransacao = "01"
             };
 
             TransacaoDTOResponse response = new()

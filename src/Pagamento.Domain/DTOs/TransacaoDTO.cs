@@ -12,7 +12,7 @@ namespace Pagamento.Domain.DTOs
         public int MesVencimentoCartao { get; set; }
         public int AnoVencimentoCartao { get; set; }
         public string CodigoSegurancaCartao { get; set; }
-        public int CategoriaTransacao { get; set; }
+        public string CategoriaTransacao { get; set; }
     }
 
     public static class CodigoPedidoGenerator
